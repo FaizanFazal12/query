@@ -3,9 +3,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "next dev --webpack",
-    "build": "next build --webpack",
-    "start": "next start"
+    "dev": "node api.js && next dev --webpack",
+    "build": "node api.js && next build --webpack",
+    "start": "node api.js && next start"
   },
   "dependencies": {
     "@tanstack/react-query": "^5.101.2",

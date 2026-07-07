@@ -1,0 +1,18 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "fix/broadcast-client-datacloneerror",
+    "main",
+    "origin"
+  ],
+  "parent": {
+    "fix/broadcast-client-datacloneerror": "main",
+    "main": null,
+    "origin": "main"
+  },
+  "order": [
+    "main",
+    "fix/broadcast-client-datacloneerror",
+    "origin"
+  ]
+}

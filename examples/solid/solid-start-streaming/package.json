@@ -3,9 +3,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vinxi dev",
-    "build": "vinxi build",
-    "start": "vinxi start",
+    "dev": "node api.js && vinxi dev",
+    "build": "node api.js && vinxi build",
+    "start": "node api.js && vinxi start",
     "version": "vinxi version"
   },
   "dependencies": {
